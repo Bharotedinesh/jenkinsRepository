@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[onStart]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-13T16:00:16 IST" name="Suite" finished-at="2024-01-13T16:00:57 IST" duration-ms="40994">
+    <groups>
+    </groups>
+    <test started-at="2024-01-13T16:00:16 IST" name="Test" finished-at="2024-01-13T16:00:57 IST" duration-ms="40994">
+      <class name="testPackage.ValidLoginTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testPackage.ValidLoginTestCase@3527942a]" started-at="2024-01-13T16:00:16 IST" name="setUp" finished-at="2024-01-13T16:00:20 IST" duration-ms="3997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginMethod()[pri:0, instance:testPackage.ValidLoginTestCase@3527942a]" started-at="2024-01-13T16:00:20 IST" name="validLoginMethod" finished-at="2024-01-13T16:00:21 IST" duration-ms="578" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.ValidLoginTestCase@3527942a]" started-at="2024-01-13T16:00:21 IST" name="tearDown" finished-at="2024-01-13T16:00:21 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPackage.ValidLoginTestCase -->
+      <class name="testPackage.InValidLoginTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testPackage.InValidLoginTestCase@46cdf8bd]" started-at="2024-01-13T16:00:21 IST" name="setUp" finished-at="2024-01-13T16:00:24 IST" duration-ms="2352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginMethod()[pri:0, instance:testPackage.InValidLoginTestCase@46cdf8bd]" started-at="2024-01-13T16:00:24 IST" name="invalidLoginMethod" finished-at="2024-01-13T16:00:30 IST" duration-ms="6583" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLoginMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.InValidLoginTestCase@46cdf8bd]" started-at="2024-01-13T16:00:30 IST" name="tearDown" finished-at="2024-01-13T16:00:30 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPackage.InValidLoginTestCase -->
+      <class name="testPackage.CeateNewCustomers_ProjectsTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testPackage.CeateNewCustomers_ProjectsTestCase@f0c8a99]" started-at="2024-01-13T16:00:30 IST" name="setUp" finished-at="2024-01-13T16:00:33 IST" duration-ms="2414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewCustomers_Projects()[pri:0, instance:testPackage.CeateNewCustomers_ProjectsTestCase@f0c8a99]" started-at="2024-01-13T16:00:33 IST" name="createNewCustomers_Projects" finished-at="2024-01-13T16:00:41 IST" duration-ms="8373" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewCustomers_Projects -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.CeateNewCustomers_ProjectsTestCase@f0c8a99]" started-at="2024-01-13T16:00:41 IST" name="tearDown" finished-at="2024-01-13T16:00:42 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPackage.CeateNewCustomers_ProjectsTestCase -->
+      <class name="testPackage.DeleteAllTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testPackage.DeleteAllTestCase@26d9b808]" started-at="2024-01-13T16:00:50 IST" name="setUp" finished-at="2024-01-13T16:00:53 IST" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteMethod()[pri:0, instance:testPackage.DeleteAllTestCase@26d9b808]" started-at="2024-01-13T16:00:53 IST" name="deleteMethod" finished-at="2024-01-13T16:00:57 IST" duration-ms="3936" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.DeleteAllTestCase@26d9b808]" started-at="2024-01-13T16:00:57 IST" name="tearDown" finished-at="2024-01-13T16:00:57 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPackage.DeleteAllTestCase -->
+      <class name="testPackage.CreateNewUsersTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testPackage.CreateNewUsersTestCase@740cae06]" started-at="2024-01-13T16:00:42 IST" name="setUp" finished-at="2024-01-13T16:00:44 IST" duration-ms="2384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createValidNewUsersMethod()[pri:0, instance:testPackage.CreateNewUsersTestCase@740cae06]" started-at="2024-01-13T16:00:44 IST" name="createValidNewUsersMethod" finished-at="2024-01-13T16:00:50 IST" duration-ms="6059" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createValidNewUsersMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.CreateNewUsersTestCase@740cae06]" started-at="2024-01-13T16:00:50 IST" name="tearDown" finished-at="2024-01-13T16:00:50 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPackage.CreateNewUsersTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
